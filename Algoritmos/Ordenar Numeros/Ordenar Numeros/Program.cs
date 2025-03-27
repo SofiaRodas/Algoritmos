@@ -53,14 +53,11 @@ do
                 Console.WriteLine($"El numero mayor es: {c}, el numero del medio es: {b} y el menor es: {a} ");
             }
         }
-    }  
-    
-    else
-    {
-        Console.Write("Por favor ingrese numeros distintos");
-    }
-        
-
+        else
+        {
+            Console.Write("Por favor ingrese numeros distintos");
+        } 
+    }      
 } while (true);
 
 
