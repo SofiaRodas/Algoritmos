@@ -28,7 +28,7 @@ do
                 Console.WriteLine($"El numero mayor es: {a}, el numero del medio es: {b} y el menor es: {c} ");
             }
 
-            else if (a > b && c < b)
+            else if (a > b && c > b)
             {
                 Console.WriteLine($"El numero mayor es: {a}, el numero del medio es: {c} y el menor es: {b} ");
             }
@@ -55,7 +55,7 @@ do
         }
         else
         {
-            Console.Write("Por favor ingrese numeros distintos");
+            Console.WriteLine("Por favor ingrese numeros distintos");
         } 
     }      
 } while (true);
