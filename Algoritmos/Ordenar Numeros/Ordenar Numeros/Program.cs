@@ -43,14 +43,14 @@ do
                 Console.WriteLine($"El numero mayor es: {b}, el numero del medio es: {c} y el menor es: {a} ");
             }
 
-            else if (c > a && a > b)
+            else if (c > b && b > a)
             {
-                Console.WriteLine($"El numero mayor es: {c}, el numero del medio es: {a} y el menor es: {b} ");
+                Console.WriteLine($"El numero mayor es: {c}, el numero del medio es: {b} y el menor es: {a} ");
             }
 
             else
             {
-                Console.WriteLine($"El numero mayor es: {c}, el numero del medio es: {b} y el menor es: {a} ");
+                Console.WriteLine($"El numero mayor es: {c}, el numero del medio es: {a} y el menor es: {b} ");
             }
         }
         else
