@@ -15,9 +15,9 @@ do
         Console.Write("Por favor ingrese numeros distintos");
         continue;
     }
-    
-    else 
-    { 
+
+    else
+    {
         Console.Write("Ingrese tercer numero: ");
         var c = int.Parse(Console.ReadLine());
 
@@ -52,16 +52,14 @@ do
             {
                 Console.WriteLine($"El numero mayor es: {c}, el numero del medio es: {b} y el menor es: {a} ");
             }
-
-
-            else
-            {
-                Console.Write("Por favor ingrese numeros distintos");
-            }
-        
         }
-
+    }  
+    
+    else
+    {
+        Console.Write("Por favor ingrese numeros distintos");
     }
+        
 
 } while (true);
 
